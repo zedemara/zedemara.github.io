@@ -1,0 +1,33 @@
+html, body {min-height: 100%;}
+
+
+body{
+	
+	background-image: url("bg.jpg");
+	background-size: cover ;
+	background-position: center center;
+	background-repeat: no-repeat;
+	}
+
+
+
+.flex-container {
+  display: flex;
+  height: 800px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
+	}
+
+.btn-danger{
+	margin-top: 20px;
+	border-radius: 12px;
+	padding: 10px;
+	font-size: 1.2em;
+}
